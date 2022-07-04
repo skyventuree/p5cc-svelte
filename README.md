@@ -2,6 +2,19 @@
 
 Visit: [skyventuree.github.io/p5cc](https://skyventuree.github.io/p5cc/index.html).
 
+# `p5cc-svelte` IS NOT PRODUCTION READY! PLEASE USE THE 3.1 VERSION PROVIDED ABOVE!
+
+# Local development
+
+0. Have [NodeJS](https://nodejs.dev) installed on your machine.
+1. Open a command prompt/terminal on your machine and change working directory to this folder. Most operating systems have the command `cd` to change directory.
+2. Begin to install the dependencies by typing `npm install` in the command prompt/terminal.
+3. [Development] `npm run dev`. This will start the webserver at `localhost:3000`.
+4. [Build] `npm run build`. This will build the webpage to `dist` directory.
+
+<details>
+<summary>P5CC original README.md</summary>
+
 # Persona 5 Calling Card Maker
 
 Persona 5 Calling Card Maker is a tool that allows you to create your own calling cards while remaining anonymous.
@@ -17,8 +30,7 @@ You can do this quick setup to have a normally functional tool by following the 
 0. Have [NodeJS](https://nodejs.dev) installed on your machine.
 1. Open a command prompt/terminal on your machine and change working directory to this folder. Most operating systems have the command `cd` to change directory.
 2. Begin to install the dependencies by typing `npm install` in the command prompt/terminal.
-3. Run `npm run dev -- --open` to start the development server and open it in the browser.
-4. (Optional) `npm run build` to build the webpage. The result will be in the `dist` folder.
+3. Run the webpage by typing `node app.js` in the command prompt/terminal. P5CC will be available at `http://localhost:4200/`
 
 ## Credits
 
@@ -38,4 +50,4 @@ _Credits can also be seen on the website along with links to the original site a
 
 Need version 2 of this tool? I got you covered: [p5cc-python](https://github.com/skyventuree/p5cc-python).
 
-
+</details>
